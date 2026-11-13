@@ -1,0 +1,10 @@
+version: 2
+sources:
+    - name: datafeed_shared_schema
+      database: "{{('king')}}"
+      schema: schema_raw
+      tables:
+        - name: raw_customerdata
+        - name: raw_orders
+
+    
